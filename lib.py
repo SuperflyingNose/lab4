@@ -6,4 +6,4 @@ def strangeAlg(a):
             if(a[i][j] in b):
                 c+=1
         b.append(a[i])
-    print(c)
+    return c
